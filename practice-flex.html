@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .mainbox {
+            display: flex;
+        }
+
+        .box {
+            height: 300px;
+            width: 250px;
+            border: 2px solid gray;
+            margin-right: 10px;
+            border-radius: 5px;
+
+        }
+
+        .innerbox {
+            height: 60px;
+            width: 250px;
+            border: 1px solid gray;
+            background-color: white;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            margin: -1px;
+
+
+        }
+
+        #btn:hover {
+            background-color: white;
+            transition: .5s;
+
+        }
+
+        #btn1 {
+            border: 1px solid rgb(50, 131, 223);
+            color: rgb(50, 131, 223);
+            border-radius: 3px;
+            height: 30px;
+            width: 180px;
+            font-size: large;
+            margin: 20px;
+
+        }
+
+        #btn {
+
+            border: 1px solid rgb(50, 131, 255);
+            background-color: rgb(50, 131, 255);
+            color: white;
+            border-radius: 3px;
+            height: 30px;
+            width: 180px;
+            font-size: large;
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mainbox">
+        <div class="box">
+            <div class="innerbox">
+                <center>
+                    <h2>Free</h2>
+                </center>
+            </div>
+
+            <center>
+                <h2>$0 /mo</h2>
+                <ul type="none">
+                    <li> 10 Users included</li>
+                    <li>2 GB of Storage</li>
+                    <li>Email Support</li>
+                    <li>Help center access</li>
+
+                </ul>
+
+                <button type="button" id="btn1"> SignUp for Free</button>
+            </center>
+
+        </div>
+        <div class="box">
+            <div class="innerbox">
+                <center>
+                    <h2>Pro</h2>
+                </center>
+            </div>
+            <center>
+                <h2>$15/mo</h2>
+                <ul type="none">
+                    <li> 20 Users included</li>
+                    <li>10 GB of Storage</li>
+                    <li>Priority email Support</li>
+                    <li>Help center access</li>
+                </ul>
+
+                <button type="button" id="btn">Get Strated</button>
+            </center>
+
+        </div>
+        <div class="box">
+            <div class="innerbox">
+                <center>
+                    <h2>Enterprise</h2>
+                </center>
+
+            </div><!--Inner box-->
+            <center>
+                <h2>$29/mo</h2>
+                <ul type="none">
+                    <li> 30 Users included</li>
+                    <li>15 GB of Storage</li>
+                    <li>Phone and email Support</li>
+                    <li>Help center access</li>
+                </ul>
+
+                <button type="button" id="btn">Contact Us</button>
+            </center>
+        </div>
+    </div>
+
+</body>
+
+</html>
